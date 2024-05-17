@@ -1,0 +1,7 @@
+{
+  "dev":{
+    "url": "https://reqres.in/api/",
+    "userId": 2,
+    "nonExistingId": 9292929292929922
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "singleFetch": {
+    "data": [
+      {
+        "id": "#int",
+        "email": "string",
+        "first_name": "string",
+        "last_name": "string",
+        "avatar": "string"
+      }
+    ]
+  },
+  "listFetch": {
+    "page": "#int",
+    "per_page": "#int",
+    "total": "#int",
+    "total_pages": "#int",
+    "data": [
+      {
+        "id": "#int",
+        "email": "string",
+        "first_name": "string",
+        "last_name": "string",
+        "avatar": "string"
+      }
+    ]
+  }
+}
