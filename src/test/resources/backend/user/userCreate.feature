@@ -44,6 +44,23 @@ Feature: User Creation - Service /users Post Method
     And print response
     And print "succesful"
 
+  Scenario Outline: Validate User Creation with additional field using <datatype>
+
+    Given path "users"
+    And request { "data": <data>}
+    When method post
+    Then status 201
+    And match response == <expected>
+    And print response
+    And print "respuesta es de tipo: "+<datatype>
+    And print "succesful"
+
+    Examples:
+      | data      | datatype | expected                                                 |
+      | 'abcd123' | 'string' | { data: '#string', id: '#string', createdAt: '#string' } |
+      | 123       | 'number' | { data: '#number', id: '#string', createdAt: '#string' } |
+      | null      | 'null'   | { data: '#null', id: '#string', createdAt: '#string' }   |
+
   Scenario: Validate Field id its an inmutable field
 
     Given path "users"
