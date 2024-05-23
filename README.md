@@ -1,9 +1,5 @@
  🌟 QA - Automation - ReqRes API - MIELES S.A.S 🌟
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/yourusername/your-repo/assets/logo.png" alt="Project Logo" width="200" height="200">
-</div>
-
 ---
 
 ## 📄 Description
