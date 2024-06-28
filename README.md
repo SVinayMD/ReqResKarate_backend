@@ -1,4 +1,4 @@
- 🌟 QA - Automation - ReqRes API - MIELES S.A.S 🌟
+ 🌟 QA - Automation - ReqRes API 🌟
 
 ---
 
