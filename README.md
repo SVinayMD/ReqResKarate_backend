@@ -45,10 +45,6 @@ This project focuses on the automation testing of the Reqres.in API, a hosted du
 └───ReqResKarate_backend
     ├───.idea
     └───src
-        ├───main
-        │   └───java
-        │       └───org
-        │           └───example
         └───test
             ├───java
             │   └───backend
@@ -61,8 +57,13 @@ This project focuses on the automation testing of the Reqres.in API, a hosted du
 
 ## 🏃‍♂️ Usage
 
-1. **Running Tests**:Running Tests: using the **mvn test** command will run al the features exposed in the project
+1. **Running Tests**:Running Tests: using the runner file located on src/test/java/backend/testParallel.java command will run
+all the features exposed in the project and generate the proper reports
 
-```bash
-mvn test
-```
+## Reporting
+
+1. **Cucumber Reporting**:after running the tests using the runner previously discussed a test report made with cucumber will be 
+generated in the **target/cucumber-html-reports** route, and results can be further viewed in the newly generated cucumber overviews, 
+An example of the results is shown below:
+
+![Cucumber Report](https://github.com/SVinayMD/ReqResKarate_backend/blob/main/cucumber_report.png)
